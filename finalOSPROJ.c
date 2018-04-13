@@ -387,17 +387,17 @@ sleep(1);
 system("cls");
 
 printf("\n\tProcess Number |\tPriority |\tBurst Time |\tWaiting Time |\tTurn Around Time");
-printf("\n\nQUEUE1 : \t\n");
+//printf("\n\nQUEUE1 : \t\n");
 for (int i=1;i<=n1;i++)
 {
 	printf("\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p1[i].pid,p1[i].pri,p1[i].bt,p1[i].wt,p1[i].tat);
 }
-printf("\nQUEUE2 : \t\n");
+//printf("\nQUEUE2 : \t\n");
 for (int i=1;i<=n2;i++)
 {
 	printf("\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p2[i].pid,p2[i].pri,p2[i].bt,p2[i].wt,p2[i].tat);}
 
-printf("\nQUEUE3 : \t\n");
+//printf("\nQUEUE3 : \t\n");
 for (int i=1;i<=n3;i++)
 {
 	printf("\t\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p3[i].pid,p3[i].pri,p3[i].bt,p3[i].wt,p3[i].tat);
