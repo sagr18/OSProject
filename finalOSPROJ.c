@@ -385,22 +385,27 @@ for (int i=1;i<=n3;i++)
 printf("\t\t\tCalculating the result\n\t\t\tPLEASE WAIT...");
 sleep(1);
 system("cls");
+ printf("\t\t\t============================\n\n\t\tRange OF Queue1 Priority is 1-10 i.e Round Robin\n");
+  printf("\n\t\tRange OF Queue2 Priority is 11-20 i.e Priority Scheduling\n");
+  printf("\n\t\tRange OF Queue3 Priority is 21-30 i.e FCFS\n\n\n");
+printf("\t\t\t==================================PROCESSES QUEUE TABLE=====================================\n");
 
-printf("\n\tProcess Number |\tPriority |\tBurst Time |\tWaiting Time |\tTurn Around Time");
-//printf("\n\nQUEUE1 : \t\n");
+printf("\n\t\tProcess Number |\tPriority |\tBurst Time |\tWaiting Time |\tTurn Around Time");
+//printf("\n\nQUEUE1 : \n");
 for (int i=1;i<=n1;i++)
 {
-	printf("\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p1[i].pid,p1[i].pri,p1[i].bt,p1[i].wt,p1[i].tat);
+	printf("\n\t\t%d \t\t%d \t\t%d \t\t%d \t\t%d\n",p1[i].pid,p1[i].pri,p1[i].bt,p1[i].wt,p1[i].tat);
 }
-//printf("\nQUEUE2 : \t\n");
+//printf("\nQUEUE2 : \n");
 for (int i=1;i<=n2;i++)
 {
-	printf("\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p2[i].pid,p2[i].pri,p2[i].bt,p2[i].wt,p2[i].tat);}
+	printf("\n\t\t%d \t\t%d \t\t%d \t\t%d \t\t%d\n",p2[i].pid,p2[i].pri,p2[i].bt,p2[i].wt,p2[i].tat);}
 
-//printf("\nQUEUE3 : \t\n");
+//printf("\nQUEUE3 : \n");
 for (int i=1;i<=n3;i++)
 {
-	printf("\t\t%d \t\t%d \t\t%d \t\t%d \t\t%d",p3[i].pid,p3[i].pri,p3[i].bt,p3[i].wt,p3[i].tat);
+	printf("\n\t\t\t%d \t\t%d \t\t%d \t\t%d \t\t%d\n",p3[i].pid,p3[i].pri,p3[i].bt,p3[i].wt,p3[i].tat);
 }
 printf("\n");
+
 }
